@@ -1,1 +1,8 @@
+[project]
+name = "autoreport"
+version = "0.1.0"
+description = "Automated report generation tool"
 
+dependencies = [
+    "typer"
+]
