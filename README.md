@@ -1,1 +1,36 @@
-# AutoReport-
+AutoReport
+
+AutoReport is a Python-based Command Line Interface (CLI) application that automates report generation from structured data files.
+
+Features
+
+- CLI-based application using Typer
+- Data processing and analysis
+- Automated report generation
+- Chart and visualization support
+- Organized project structure
+- Template-based reporting
+
+Project Structure
+
+AutoReport/
+├── data/
+├── reports/
+├── charts/
+├── templates/
+├── main.py
+├── pyproject.toml
+└── README.md
+
+Technologies Used
+
+- Python
+- Typer
+
+Status
+
+Project is currently under development as part of a 15-day internship task.
+
+Author
+
+Aman Sharma# AutoReport-
