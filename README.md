@@ -10,6 +10,8 @@ Features
 - Chart and visualization support
 - Organized project structure
 - Template-based reporting
+- - CSV data loading support
+- Basic data validation module
 
 Project Structure
 
