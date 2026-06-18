@@ -1,1 +1,10 @@
-
+[
+  {
+    "name": "Aman",
+    "department": "IT"
+  },
+  {
+    "name": "Harsh",
+    "department": "HR"
+  }
+]
