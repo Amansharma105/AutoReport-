@@ -12,17 +12,27 @@ AutoReport is a Python-based Command Line Interface (CLI) application that autom
 - Template-based reporting
 - CSV data loading support
 - Basic data validation module
-
+- CSV and Excel data loading
+- JSON data support
+- SQLite data adapters
+- Schema validation
+- Statistical analysis
+- Trend detection
+  
 ## Project Structure
 
 ```text
 AutoReport/
 ├── data/
-│   └── sample.csv
+│   ├── sample.csv
+│   ├── sample.json
+│   └── trend.py
 ├── reports/
 ├── charts/
 ├── templates/
 ├── data_loader.py
+├── data_sources.py
+├── analysis.py
 ├── main.py
 ├── pyproject.toml
 └── README.md
@@ -31,7 +41,9 @@ AutoReport/
 ## Technologies Used
 
 - Python
+- Pandas
 - Typer
+- SQLite
 
 ## Status
 
