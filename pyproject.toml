@@ -7,5 +7,6 @@ dependencies = [
     "typer",
     "pandas",
     "matplotlib",
-    "seaborn"
+    "seaborn",
+    "plotly"
 ]
