@@ -11,4 +11,5 @@ dependencies = [
     "jinja2",
     "reportlab",
     "apscheduler"
+     "pytest"
 ]
