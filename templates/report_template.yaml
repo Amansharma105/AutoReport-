@@ -1,1 +1,11 @@
+title: Employee Report
 
+sections:
+  - name: Employee Details
+    data_source: sample.csv
+
+charts:
+  - type: bar
+    x: Name
+    y: Age
+    title: Employee Age Chart
