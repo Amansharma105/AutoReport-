@@ -8,5 +8,6 @@ dependencies = [
     "pandas",
     "matplotlib",
     "seaborn",
-    "plotly"
+    "plotly",
+    "jinja2"
 ]
