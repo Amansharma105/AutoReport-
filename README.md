@@ -1,4 +1,4 @@
-# AutoReport
+## AutoReport
 
 AutoReport is a Python-based Command Line Interface (CLI) application that automates report generation from structured data files.
 
@@ -8,15 +8,17 @@ AutoReport is a Python-based Command Line Interface (CLI) application that autom
 
 - CLI application using Typer
 - CSV and Excel data loading
-- JSON and SQLite support
+- JSON data support
+- SQLite data adapters
 - Statistical analysis
 - Trend detection
 - Anomaly detection
-- Chart generation using Matplotlib and Seaborn
+- Chart generation using Matplotlib
 - Interactive charts using Plotly
+- YAML template system
 - HTML report generation using Jinja2
 - PDF report generation using ReportLab
-- Scheduler support using APScheduler
+- APScheduler integration
 - Automated testing using Pytest
 
 ---
@@ -27,25 +29,30 @@ AutoReport is a Python-based Command Line Interface (CLI) application that autom
 AutoReport/
 │
 ├── charts/
+│   ├── chart_generator.py
 │   └── interactive_chart.py
 │
 ├── data/
+│   ├── sample.csv
+│   ├── sample.json
+│   └── trend.py
 │
 ├── reports/
+│   └── pdf_report.py
 │
 ├── templates/
-│   └── report_template.html
+│   ├── report.html
+│   └── report_template.yaml
 │
 ├── tests/
-│   └── test_app.py
+│   └── test_main.py
 │
 ├── main.py
-├── data_loader.py
-├── data_sources.py
 ├── analysis.py
-├── trend.py
 ├── anomaly.py
 ├── charts.py
+├── data_loader.py
+├── data_sources.py
 ├── scheduler.py
 ├── pyproject.toml
 └── README.md
@@ -53,11 +60,28 @@ AutoReport/
 
 ---
 
+## Technologies Used
+
+- Python
+- Pandas
+- Typer
+- Matplotlib
+- Plotly
+- Jinja2
+- ReportLab
+- APScheduler
+- Pytest
+- SQLite
+
+---
+
 ## Installation
 
 ```bash
-git clone https://github.com/Amansharma105/AutoReport-.git
-cd AutoReport-
+git clone https://github.com/yourusername/AutoReport.git
+
+cd AutoReport
+
 pip install -r requirements.txt
 ```
 
@@ -71,21 +95,6 @@ python main.py
 
 ---
 
-## Technologies Used
-
-- Python
-- Typer
-- Pandas
-- Matplotlib
-- Seaborn
-- Plotly
-- Jinja2
-- ReportLab
-- APScheduler
-- Pytest
-
----
-
 ## Testing
 
 ```bash
@@ -94,39 +103,34 @@ pytest
 
 ---
 
-## Sample Features
+## Sample Reports
 
-- Load CSV and Excel files
-- Perform statistical analysis
-- Detect trends
-- Detect anomalies
-- Generate charts
-- Create interactive charts
-- Generate HTML reports
-- Generate PDF reports
-- Schedule report generation
+- HTML Reports
+- PDF Reports
+- Interactive Charts
+- Statistical Analysis Reports
 
 ---
 
 ## Deliverables
 
 - Python package
-- Clean project structure
+- Source code repository
 - Sample datasets
 - HTML reports
 - PDF reports
-- CLI commands
+- Test cases
 - User documentation
+
+---
+
+### Author
+
+Aman Sharma
 
 ---
 
 ## Status
 
-This project was developed as part of a 15-day internship milestone program.
-
----
-
-## Author
-
-**Aman Sharma**
+Completed as part of the 15-Day Internship Milestone Project.
 
