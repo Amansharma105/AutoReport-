@@ -9,5 +9,6 @@ dependencies = [
     "matplotlib",
     "seaborn",
     "plotly",
-    "jinja2"
+    "jinja2",
+    "reportlab"
 ]
